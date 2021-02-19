@@ -1,0 +1,30 @@
+{
+  "name": "AModule_Category",
+  "version": "1",
+  "swift_versions": "5.1",
+  "summary": "AModule_Category.",
+  "description": "this is AModule_Category",
+  "homepage": "https://github.com/iOSModule/AModule_Category",
+  "license": {
+    "type": "MIT",
+    "file": "FILE_LICENSE"
+  },
+  "authors": {
+    "CasaTaloyum": "casatwy@msn.com"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source": {
+    "git": "https://github.com/iOSModule/AModule_Category.git",
+    "tag": "1"
+  },
+  "source_files": "AModule_Category/Source/**/*.{h,m,swift}",
+  "requires_arc": true,
+  "dependencies": {
+    "CTMediator": [
+
+    ]
+  },
+  "swift_version": "5.1"
+}
