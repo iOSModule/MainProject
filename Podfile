@@ -7,8 +7,12 @@ target 'MainProject' do
   use_modular_headers!
 
   # Pods for MainProject
-  pod "A_Category", :path => "../A_Category"
   
+  # 本地组件pod
+  pod "A_Category", :path => "../A_Category"
+  pod "A", :path => "../A"
+  
+  # pod
   pod 'CTMediator'
   
 

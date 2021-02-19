@@ -1,9 +1,9 @@
 {
-  "name": "B_Category",
+  "name": "A",
   "version": "1",
-  "summary": "B_Category.",
-  "description": "this is B_Category",
-  "homepage": "https://github.com/iOSModule/B_Category",
+  "summary": "A.",
+  "description": "this is A",
+  "homepage": "https://github.com/iOSModule/A",
   "license": {
     "type": "MIT",
     "file": "FILE_LICENSE"
@@ -15,13 +15,16 @@
     "ios": "10.0"
   },
   "source": {
-    "git": "https://github.com/iOSModule/B_Category.git",
+    "git": "https://github.com/iOSModule/A.git",
     "tag": "1"
   },
-  "source_files": "B_Category/B_Category/**/*.{h,m}",
+  "source_files": "A/A/**/*.{h,m}",
   "requires_arc": true,
   "dependencies": {
     "CTMediator": [
+
+    ],
+    "B_Category": [
 
     ]
   }
